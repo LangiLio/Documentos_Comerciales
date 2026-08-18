@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>PLANTILLA_LSC-HD-XXXX-V1.0-ES</title>
+<style>
+@page { size: Letter; margin: 0; }
+html, body { margin:0; padding:0; }
+body { font-family: "Liberation Sans", "DejaVu Sans", Arial, sans-serif; color:#28323C; }
+
+.page { position:relative; width:8.5in; height:10.98in; overflow:hidden; page-break-after: always; background:#FFFFFF; }
+.page.last { page-break-after: auto; }
+
+/* Riel lateral y acentos */
+.rail { position:absolute; left:0; top:0.55in; width:0.62in; height:9.9in; }
+.railcode { position:absolute; left:-1.15in; top:5.2in; width:3.0in;
+            -webkit-transform: rotate(-90deg); transform: rotate(-90deg);
+            font-size:5.2pt; letter-spacing:0.09em; color:#B9C4CF; text-align:center; }
+
+.content { position:absolute; left:0.95in; top:0.52in; width:7.05in; }
+.foot { position:absolute; left:0.95in; bottom:0.30in; width:7.05in; }
+.footline { border-top:0.6pt solid #C9D2DB; margin-bottom:5px; }
+.foot td { font-size:5.6pt; color:#4A5763; vertical-align:top; line-height:1.35; }
+.foot .b { font-weight:bold; color:#132C45; font-size:6.0pt; }
+.foot .site { font-size:8.2pt; font-weight:bold; color:#132C45; text-align:right; }
+.pagecode { position:absolute; right:0.55in; bottom:0.72in; font-size:5.6pt; color:#9AA7B4; }
+
+/* Encabezados y barras */
+.eyebrow { font-size:6.6pt; font-weight:bold; color:#36B0C9; letter-spacing:0.10em; margin-bottom:2px; }
+h1.title { font-size:22pt; color:#1B4E86; margin:0 0 2px 0; font-weight:bold; letter-spacing:-0.01em; }
+.subtitle { font-size:9.0pt; color:#6B7681; margin:0 0 5px 0; }
+.parts { font-size:7.4pt; color:#1B4E86; font-weight:bold; margin-bottom:8px; }
+
+.secbar { background:#132C45; color:#FFFFFF; font-size:8.0pt; font-weight:bold;
+          letter-spacing:0.05em; padding:4px 8px; margin:10px 0 6px 0; }
+.secbar.first { margin-top:0; }
+.grpbar { background:#2E5C8A; color:#FFFFFF; font-size:6.8pt; font-weight:bold;
+          letter-spacing:0.07em; padding:2.5px 7px; margin:8px 0 0 0; }
+
+p.body { font-size:7.5pt; line-height:1.45; text-align:justify; margin:0 0 5px 0; }
+ul.k { margin:2px 0 4px 0; padding-left:13px; }
+ul.k li { font-size:7.4pt; line-height:1.45; margin-bottom:1.5px; }
+ul.k li::marker { color:#36B0C9; }
+
+/* Tablas */
+table.spec { width:100%; border-collapse:collapse; }
+table.spec td { font-size:7.0pt; padding:2.6px 7px; vertical-align:top; line-height:1.35; border-bottom:0.4pt solid #E3E9EF; }
+table.spec tr.alt td { background:#F1F5F9; }
+table.spec td.k { width:1.95in; font-weight:bold; color:#132C45; }
+
+table.grid { width:100%; border-collapse:collapse; margin-top:0; }
+table.grid th { background:#132C45; color:#FFF; font-size:6.4pt; font-weight:bold; text-align:left; padding:3px 7px; letter-spacing:0.04em; }
+table.grid td { font-size:6.8pt; padding:3px 7px; vertical-align:top; line-height:1.35; border-bottom:0.4pt solid #E3E9EF; }
+table.grid tr.alt td { background:#F1F5F9; }
+
+/* Cajas de notas y advertencias */
+.note { border-left:3px solid #36B0C9; background:#EEF7FA; padding:5px 8px; margin-top:6px; }
+.note .t { font-size:6.8pt; font-weight:bold; color:#1B7C93; letter-spacing:0.05em; margin-bottom:2px; }
+.note p { font-size:6.6pt; line-height:1.4; margin:0; color:#33424F; }
+.warn { border-left:3px solid #C0392B; background:#FCEFEE; padding:5px 8px; margin-top:6px; }
+.warn .t { font-size:6.8pt; font-weight:bold; color:#B03A2E; letter-spacing:0.05em; margin-bottom:2px; }
+.warn p { font-size:6.6pt; line-height:1.4; margin:0; color:#33424F; }
+.info { border-left:3px solid #E0A800; background:#FDF7E7; padding:5px 8px; margin-top:6px; }
+.info .t { font-size:6.8pt; font-weight:bold; color:#9A7400; letter-spacing:0.05em; margin-bottom:2px; }
+.info p { font-size:6.6pt; line-height:1.4; margin:0; color:#33424F; }
+
+.tbd { color:#B06A00; background:#FFF3DF; padding:0 3px; border-radius:2px; font-style:italic; }
+
+/* Placeholders para fotos y renders */
+.ph { border:1.2pt dashed #9FB3C8; background:#F5F8FB; text-align:center; }
+.ph .lbl { font-size:6.6pt; color:#7A8B9C; font-weight:bold; letter-spacing:0.04em; }
+.ph .sub { font-size:6.0pt; color:#9AA7B4; margin-top:2px; }
+.cap { font-size:5.9pt; color:#7C8B99; font-style:italic; margin-top:3px; line-height:1.35; }
+.fig { margin-top:4px; }
+</style>
+</head>
+<body>
+
+<!-- PÁGINA 1: PORTADA -->
+<div class="page">
+  <div style="position:absolute; left:0; top:0; width:8.5in; height:10.98in; background:#F2F5F8;"></div>
+  
+  <div style="position:absolute; left:1.6in; top:0.9in; width:5.3in;">
+    <div style="text-align:center; padding:0.2in 0;">
+      <img src="Smartflow.png" alt="SmartFlow" style="max-height:1.2in; max-width:4.8in; object-fit:contain;">
+    </div>
+  </div>
+
+  <div style="position:absolute; left:1.6in; top:3.2in; width:5.3in;">
+    <div class="ph" style="height:4.30in; padding-top:2.0in;">
+      <span class="lbl">[ESPACIO PARA RENDER / FOTOGRAFÍA OFICIAL DE PORTADA]</span>
+      <div class="sub">Equipo instalado en labor subterránea o maqueta 3D en fondo transparente</div>
+    </div>
+  </div>
+
+  <div style="position:absolute; left:1.6in; top:7.9in; width:5.3in; text-align:center;">
+    <div style="font-size:16pt; color:#132C45; font-weight:bold;">[NOMBRE DEL EQUIPO O PRODUCTO]</div>
+    <div style="font-size:9.5pt; color:#6B7681; margin-top:4px;">[Subtítulo Descriptivo del Sistema / Ecosistema Minero]</div>
+    <div style="font-size:7.5pt; color:#9AA7B4; margin-top:10px;">LSC-HD-[CÓDIGO]-V[X.X]-[IDIOMA] &nbsp;&middot;&nbsp; [Estatus Documental: Preliminar / Liberado]</div>
+  </div>
+
+  <div style="position:absolute; left:0.8in; bottom:0.6in; width:2.6in;">
+    <div style="display:flex; align-items:center; gap:8px;">
+      <img src="Emblema.png" alt="Becker" style="height:0.55in; object-fit:contain;">
+      <span style="font-size:7pt; font-weight:bold; color:#132C45;">LASEC &middot; Becker Mining Systems</span>
+    </div>
+  </div>
+  <div style="position:absolute; right:0.8in; bottom:0.6in; width:1.6in;">
+    <div class="ph" style="height:0.65in; padding-top:0.20in;"><span class="lbl">LOGO ST4RT THE CHANGE</span></div>
+  </div>
+</div>
+
+<!-- PÁGINA 2: DESCRIPCIÓN, CARACTERÍSTICAS Y APLICACIONES -->
+<div class="page">
+<div class="rail">
+  <svg width="60" height="950" viewBox="0 0 58 620" preserveAspectRatio="none">
+    <path d="M58 0 C 20 120, 0 250, 6 360 C 12 470, 36 540, 58 620 Z" fill="#132C45"/>
+  </svg>
+  <div class="railcode">HOJA DE DATOS &middot; [NOMBRE DEL EQUIPO] &middot; LSC-HD-[CÓDIGO]</div>
+</div>
+
+<div class="content">
+  <div class="eyebrow">HOJA DE DATOS TÉCNICOS &middot; [FAMILIA DE PRODUCTO]</div>
+  <h1 class="title">[Nombre del Producto]</h1>
+  <div class="subtitle">[Descripción concisa de una sola línea sobre la función principal del equipo]</div>
+  <div class="parts">Modelo: <span class="tbd">[Completar Modelo]</span> &nbsp;&middot;&nbsp; Número de Parte: <span class="tbd">[Completar P/N]</span> &nbsp;&middot;&nbsp; Marca: SmartFlow®</div>
+
+  <div class="ph" style="height:2.2in; padding-top:0.95in;">
+    <span class="lbl">[ESPACIO RESERVADO PARA RENDER 3D / VISTA FRONTAL Y CONECTORES]</span>
+    <div class="sub">Render fotorrealista con fondo blanco o detalle de puertos</div>
+  </div>
+  <div class="cap">Figura 1. Vista general del dispositivo [Nombre del Producto] con indicación de interfaces.</div>
+
+  <div class="secbar">DESCRIPCIÓN FUNCIONAL</div>
+  <p class="body"><!-- [EDITAR PÁRRAFO 1] -->El [Nombre del Producto] es un dispositivo diseñado para [misión operativa en mina]. Permite [funcionalidad clave 1] asegurando [beneficio operativo / seguridad]. Su arquitectura permite la integración con la infraestructura LAIoT® y la plataforma SmartFlow® para monitoreo centralizado.</p>
+  <p class="body"><!-- [EDITAR PÁRRAFO 2] -->El equipo cuenta con operación [Standalone / En Red], lo que garantiza su funcionamiento ininterrumpido incluso ante eventuales cortes en los canales de comunicaciones hacia superficie.</p>
+
+  <div class="secbar">CARACTERÍSTICAS CLAVE</div>
+  <ul class="k">
+    <li><b>Característica 1:</b> [Descripción técnica destacada, ej. Conectividad BLE Mesh / Wi-Fi / LTE].</li>
+    <li><b>Característica 2:</b> [Rango de cobertura o capacidad, ej. Alcance de 80 a 90 m con línea de vista].</li>
+    <li><b>Característica 3:</b> [Modo de alimentación o autonomía, ej. Entrada 12-24VDC con respaldo interno].</li>
+    <li><b>Característica 4:</b> [Capacidad de seguridad o prioridad, ej. Modo SOS / Hombre caído / Prioridad ambulancia].</li>
+    <li><b>Característica 5:</b> [Mantenimiento y gestión, ej. Actualización de firmware inalámbrica OTA].</li>
+    <li><b>Característica 6:</b> [Grado de protección y robustez, ej. Carcasa IP67 resistente a ambientes de mina].</li>
+  </ul>
+
+  <div class="secbar">APLICACIONES TÍPICAS</div>
+  <p class="body">[Listar ubicaciones y casos de uso: Rampas principales, galerías de acarreo, rebajes, frentes de avance, talleres subterráneos, camiones de bajo perfil, vehículos ligeros y personal operativo].</p>
+</div>
+
+<div class="foot">
+  <div class="footline"></div>
+  <table width="100%"><tr>
+    <td width="24%"><img src="Emblema.png" alt="Becker" style="height:0.28in; object-fit:contain;"></td>
+    <td width="30%"><span class="b">LASEC Technology Systems SAPI de CV</span><br>Ciudad del Conocimiento, Zacatecas, México</td>
+    <td width="24%"><span class="b">Contacto:</span><br>+52 [492] 924 1070<br>soporte@lasec.com.mx</td>
+    <td width="22%" class="site">www.lasec.com.mx</td>
+  </tr></table>
+</div>
+<div class="pagecode">LSC-HD-[CÓDIGO]-V[X.X] &middot; Pág. 2</div>
+</div>
+
+<!-- PÁGINA 3: ESPECIFICACIONES TÉCNICAS -->
+<div class="page">
+<div class="rail">
+  <svg width="60" height="950" viewBox="0 0 58 620" preserveAspectRatio="none">
+    <path d="M58 0 C 20 120, 0 250, 6 360 C 12 470, 36 540, 58 620 Z" fill="#132C45"/>
+  </svg>
+  <div class="railcode">HOJA DE DATOS &middot; [NOMBRE DEL EQUIPO] &middot; LSC-HD-[CÓDIGO]</div>
+</div>
+
+<div class="content">
+  <div class="secbar first">ESPECIFICACIONES TÉCNICAS</div>
+
+  <div class="grpbar">RADIOFRECUENCIA Y COMUNICACIONES</div>
+  <table class="spec">
+    <tr class="alt"><td class="k">Tecnologías de Radio</td><td>[BLE 5.0 / Wi-Fi 2.4/5 GHz / LTE Cat-M1 / RFID]</td></tr>
+    <tr><td class="k">Banda de Frecuencia</td><td>[2402 a 2480 MHz / Bandas LTE aplicables]</td></tr>
+    <tr class="alt"><td class="k">Alcance de Radio</td><td>[80 a 90 m con línea de vista en labor subterránea]</td></tr>
+    <tr><td class="k">Topología de Red</td><td>[Mesh autónoma / Infraestructura cliente-servidor]</td></tr>
+    <tr class="alt"><td class="k">Antenas</td><td>[Integradas omnidireccionales / Conector externo SMA]</td></tr>
+  </table>
+
+  <div class="grpbar">ALIMENTACIÓN Y CONSUMO</div>
+  <table class="spec">
+    <tr class="alt"><td class="k">Tensión de Operación</td><td>[12 a 24 VDC / 100-240 VAC / PoE 802.3af/at]</td></tr>
+    <tr><td class="k">Consumo Eléctrico</td><td>[Nominal: X W / Máximo: Y W]</td></tr>
+    <tr class="alt"><td class="k">Batería de Respaldo</td><td>[Química Li-ion / Autonomía estimada: X horas]</td></tr>
+    <tr><td class="k">Protecciones</td><td>[Contra inversión de polaridad, sobretensión y transitorios]</td></tr>
+  </table>
+
+  <div class="grpbar">CARACTERÍSTICAS MECÁNICAS Y AMBIENTALES</div>
+  <table class="spec">
+    <tr class="alt"><td class="k">Dimensiones (Al x An x Pr)</td><td>[XXX mm x YYY mm x ZZZ mm]</td></tr>
+    <tr><td class="k">Peso</td><td>[X.XX kg aproximadamente]</td></tr>
+    <tr class="alt"><td class="k">Material del Gabinete</td><td>[Aluminio inyectado / Policarbonato de alto impacto]</td></tr>
+    <tr><td class="k">Grado de Protección</td><td>[IP67 conforme a norma IEC 60529]</td></tr>
+    <tr class="alt"><td class="k">Temperatura de Operación</td><td>[-20 °C a +60 °C]</td></tr>
+    <tr><td class="k">Humedad Relativa</td><td>[5% a 95% sin condensación]</td></tr>
+    <tr class="alt"><td class="k">Montaje</td><td>[Soporte a lomo / hastial / poste mediante abrazadera]</td></tr>
+  </table>
+
+  <div class="secbar">CUMPLIMIENTO NORMATIVO Y REGULATORIO</div>
+  <table class="grid">
+    <tr><th width="28%">REGIÓN / NORMA</th><th width="36%">ALCANCE</th><th width="36%">EVIDENCIA TÉCNICA</th></tr>
+    <tr class="alt"><td>IFT / NOM (México)</td><td>Telecomunicaciones y RF</td><td>Dictamen / Homologación IFT</td></tr>
+    <tr><td>FCC Parte 15 (EE. UU.)</td><td>Emisiones y radiador intencional</td><td>FCC ID / Test Report oficial</td></tr>
+    <tr class="alt"><td>RED / CE (Europa)</td><td>Compatibilidad CEM y seguridad</td><td>Declaración UE de Conformidad</td></tr>
+    <tr><td>IEC 60529 (IP67)</td><td>Hermeticidad contra polvo y agua</td><td>Informe de laboratorio acreditado</td></tr>
+  </table>
+
+  <div class="warn">
+    <div class="t">ADVERTENCIA DE SEGURIDAD EN MINA</div>
+    <p>[Indicar si el equipo cuenta o no con certificación para atmósferas explosivas. Ejemplo: "Este equipo no está clasificado como intrínsecamente seguro para atmósferas con gas metano o polvo combustible"].</p>
+  </div>
+</div>
+
+<div class="foot">
+  <div class="footline"></div>
+  <table width="100%"><tr>
+    <td width="24%"><img src="Emblema.png" alt="Becker" style="height:0.28in; object-fit:contain;"></td>
+    <td width="30%"><span class="b">LASEC Technology Systems SAPI de CV</span><br>Ciudad del Conocimiento, Zacatecas, México</td>
+    <td width="24%"><span class="b">Contacto:</span><br>+52 [492] 924 1070<br>soporte@lasec.com.mx</td>
+    <td width="22%" class="site">www.lasec.com.mx</td>
+  </tr></table>
+</div>
+<div class="pagecode">LSC-HD-[CÓDIGO]-V[X.X] &middot; Pág. 3</div>
+</div>
+
+<!-- PÁGINA 4: CONTROL DOCUMENTAL Y CONTRAPORTADA -->
+<div class="page last">
+  <div style="position:absolute; left:0; top:0; width:8.5in; height:10.98in; background:#F2F5F8;"></div>
+  
+  <div class="content" style="top:1.2in;">
+    <div class="secbar first">CONTROL DOCUMENTAL Y APROBACIONES</div>
+    <table class="grid">
+      <tr><th width="25%">CAMPO</th><th width="35%">VALOR</th><th width="40%">RESPONSABLE</th></tr>
+      <tr class="alt"><td>Código Documental</td><td>LSC-HD-[CÓDIGO]-V[X.X]-ES</td><td>Gestión de Calidad y Certificaciones</td></tr>
+      <tr><td>Versión / Revisión</td><td>V1.0 (Primera Emisión)</td><td>Ingeniería de Hardware / Firmware</td></tr>
+      <tr class="alt"><td>Elaboró</td><td>[Nombre del Ingeniero]</td><td>I+D Hardware</td></tr>
+      <tr><td>Revisó</td><td>[Nombre del Revisor]</td><td>Gestión de Certificaciones</td></tr>
+      <tr class="alt"><td>Aprobó</td><td>[Nombre del Director]</td><td>Dirección de Tecnología LASEC</td></tr>
+    </table>
+
+    <div class="note" style="margin-top:20px;">
+      <div class="t">AVISO LEGAL Y CONFIDENCIALIDAD</div>
+      <p>SmartFlow® y LAIoT® son marcas registradas de LASEC Technology Systems SAPI de CV. Este documento contiene información técnica de carácter propietario para uso exclusivo del personal autorizado y clientes del proyecto. Queda prohibida su reproducción total o parcial sin autorización por escrito.</p>
+    </div>
+  </div>
+
+  <div style="position:absolute; left:1.2in; bottom:1.8in; width:6.1in; text-align:center;">
+    <div style="font-size:8.5pt; color:#132C45; font-weight:bold;">LASEC Technology Systems SAPI de CV</div>
+    <div style="font-size:7.0pt; color:#5A6672; margin-top:6px;">
+      Parque de Ciencia y Tecnología QUANTUM &middot; Ciudad del Conocimiento, Zacatecas, Zac., México.<br>
+      www.lasec.com.mx &nbsp;|&nbsp; soporte@lasec.com.mx
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
